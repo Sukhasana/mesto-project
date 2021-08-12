@@ -2,5 +2,18 @@
   max-width: 880px;
   padding-bottom: 36px;
   padding-top: 45px;
-  border-bottom: 1px solid #545454;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+@media screen and (max-width: 910px) {
+  .header {
+    max-width: 630px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header {
+    padding: 28px 27px 0;
+    max-width: 320px;
+  }
 }

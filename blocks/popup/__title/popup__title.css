@@ -7,13 +7,13 @@
     font-weight: 900;
     padding-bottom: 54px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
 
 @media screen and (max-width: 767px) {
     .popup__title {
-      font-size: 14px;
-      line-height: 17px;
+      font-size: 18px;
+      line-height: 22px;
       padding-bottom: 75px;
     }
   }

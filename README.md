@@ -16,11 +16,9 @@
 * медиазапросы для создания "отзывчивой" вёрстки.  
 _____________________________________________________________________  
 
-Планируется "оживить" страницу с помощью JavaScript.  
+Планируется "оживить" страницу с помощью JavaScript.
 
-## [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
-
-## [Ссылка на GitHub Pages](https://sukhasana.github.io/mesto-project/index.html)
+## [Ссылка на GitHub Pages](https://sukhasana.github.io/mesto/)
 
  
 

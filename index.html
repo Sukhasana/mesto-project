@@ -9,81 +9,84 @@
 </head>
 
 <body class="page">
-  <header class="header page_section">
+  <header class="header page__section">
     <img class="header__logo" src="images/header__logo.svg" alt="логотип со словом Mesto на латинице">
   </header>
   <main class="content">
-    <section class="profile page_section">
-      <img class="profile__image" src="images/profile__image.png" alt="фото Жака Кусто">
-      <div class="profile__text">
-        <h1 class="profile__title">Жак-Ив Кусто</h1>
+    <section class="profile page__section">
+      <div class="profile__container">
+        <img class="profile__image" src="images/profile__image.png" alt="фото Жака Кусто">
+        <div class="profile__text">
+          <div class="profile__edit">
+            <h1 class="profile__title">Жак-Ив Кусто</h1>
+            <button class="profile__edit-button" type="button"></button>
+        </div>
         <p class="profile__subtitle">Исследователь океана</p>
-        <button class="profile__edit-button" type="button"></button>
-      </div>
+        </div>
+        </div>
       <button class="profile__add-button" type="button"></button>
     </section>
 
-    <section class="photos page_section">
+    <section class="photos page__section">
       <ul class="photo-grid">
-        <li>
+        <li class="photo-grid__item">
           <img class="photo-grid__image" src="images/karachaevsk.png" alt="Церковь в горах">
-          <div>
-            <h2>Карачаевск</h2>
-            <button class="photos__like-button" type="button"></button>
+          <div class="photo-grid__underline"> 
+            <h2 class="photo-grid__title">Карачаевск</h2>
+            <button class="photo-grid__like-button" type="button"></button>
           </div>
         </li>
-        <li> <img class="photo-grid__image" src="images/elbrus.png" alt="Снимок Эльбруса издали">
-          <div>
-            <h2>Гора Эльбрус</h2>
-            <button class="photos__like-button" type="button"></button>
+        <li class="photo-grid__item">
+            <img class="photo-grid__image" src="images/elbrus.png" alt="Снимок Эльбруса издали">
+          <div class="photo-grid__underline">
+            <h2 class="photo-grid__title">Гора Эльбрус</h2>
+            <button class="photo-grid__like-button" type="button"></button>
           </div>
         </li>
-        <li> <img class="photo-grid__image" src="images/dombay.png" alt="Вид на горы">
-          <div>
-            <h2>Домбай</h2>
-            <button class="photos__like-button" type="button"></button>
+        <li class="photo-grid__item"> <img class="photo-grid__image" src="images/dombay.png" alt="Вид на горы">
+          <div class="photo-grid__underline">
+            <h2 class="photo-grid__title">Домбай</h2>
+            <button class="photo-grid__like-button" type="button"></button>
           </div>
         </li>
-        <li> <img class="photo-grid__image" src="images/dombay.png" alt="Вид на горы">
-          <div>
-            <h2>Домбай</h2>
-            <button class="photos__like-button" type="button"></button>
+        <li class="photo-grid__item"> <img class="photo-grid__image" src="images/dombay.png" alt="Вид на горы">
+          <div class="photo-grid__underline">
+            <h2 class="photo-grid__title">Домбай</h2>
+            <button class="photo-grid__like-button" type="button"></button>
           </div>
         </li>
-        <li>
+        <li class="photo-grid__item">
           <img class="photo-grid__image" src="images/elbrus.png" alt="Снимок Эльбруса издали">
-          <div>
-            <h2>Гора Эльбрус</h2>
-            <button class="photos__like-button" type="button"></button>
+          <div class="photo-grid__underline">
+            <h2 class="photo-grid__title">Гора Эльбрус</h2>
+            <button class="photo-grid__like-button" type="button"></button>
           </div>
         </li>
-        <li>
+        <li class="photo-grid__item">
           <img class="photo-grid__image" src="images/karachaevsk.png" alt="Церковь в горах">
-          <div>
-            <h2>Карачаевo-Черкессия</h2>
-            <button class="photos__like-button" type="button"></button>
+          <div class="photo-grid__underline">
+            <h2 class="photo-grid__title">Карачаевo-Черкессия</h2>
+            <button class="photo-grid__like-button" type="button"></button>
           </div>
         </li>
       </ul>
     </section>
   </main>
-  <footer class="footer page_section">
+  <footer class="footer page__section">
     <p class="footer__copyright">&copy; 2021 Mesto Russia</p>
   </footer>
 
-  <div class="popup popup_opened">
+  <section class="popup">
     <div class="popup__container">
-      <form class="popup__form" action="">
-        <h2 class="popup__title">Редактировать профиль</h2>
-        <fieldset class="form__fieldset">
-          <input class="form__field-one" type="text" name="name" placeholder="Имя"></input>
-          <input class="form__field-two" type="text" name="occupation" placeholder="Род занятий"></input>
-        </fieldset>
-        <button class="form__save-button"></button>
+      <form class="popup__form" name="popup__profile-edit">
+        <h3 class="popup__title">Редактировать профиль</h3>
+          <input class="popup__field" type="text" name="name" placeholder="Жак-Ив Кусто">
+          <input class="popup__field" type="text" name="occupation" placeholder="Исследователь океана">
+       <button class="popup__save-button" type="button">Сохранить</button>
       </form>
+    <button class="popup__close-icon" type="submit"></button>
     </div>
-    <button class="form__close-icon"></button>
-  </div>
+  </section>
 </body>
 
 </html>

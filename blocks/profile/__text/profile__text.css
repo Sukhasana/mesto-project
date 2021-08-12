@@ -4,3 +4,11 @@
   flex-direction: column;
   padding-left: 26px;
 }
+
+@media screen and (max-width: 910px) {
+  .profile__text {
+    padding-top: 22px;
+    padding-bottom: 36px;
+    align-items: center;
+  }
+}
