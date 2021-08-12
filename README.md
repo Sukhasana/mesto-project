@@ -18,7 +18,7 @@ _____________________________________________________________________
 
 Планируется "оживить" страницу с помощью JavaScript.
 
-## [Ссылка на GitHub Pages](https://sukhasana.github.io/mesto/)
+## [Ссылка на GitHub Pages](https://sukhasana.github.io/mesto/index.html)
 
  
 
