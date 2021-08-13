@@ -13,31 +13,31 @@
     <img class="header__logo" src="images/header__logo.svg" alt="логотип со словом Mesto на латинице">
   </header>
   <main class="content">
-    <section class="profile page__section">
+    <section class="profile content__section">
       <div class="profile__container">
         <img class="profile__image" src="images/profile__image.png" alt="фото Жака Кусто">
         <div class="profile__text">
           <div class="profile__edit">
             <h1 class="profile__title">Жак-Ив Кусто</h1>
             <button class="profile__edit-button" type="button"></button>
+          </div>
+          <p class="profile__subtitle">Исследователь океана</p>
         </div>
-        <p class="profile__subtitle">Исследователь океана</p>
-        </div>
-        </div>
+      </div>
       <button class="profile__add-button" type="button"></button>
     </section>
 
-    <section class="photos page__section">
+    <section class="photos content__section">
       <ul class="photo-grid">
         <li class="photo-grid__item">
           <img class="photo-grid__image" src="images/karachaevsk.png" alt="Церковь в горах">
-          <div class="photo-grid__underline"> 
+          <div class="photo-grid__underline">
             <h2 class="photo-grid__title">Карачаевск</h2>
             <button class="photo-grid__like-button" type="button"></button>
           </div>
         </li>
         <li class="photo-grid__item">
-            <img class="photo-grid__image" src="images/elbrus.png" alt="Снимок Эльбруса издали">
+          <img class="photo-grid__image" src="images/elbrus.png" alt="Снимок Эльбруса издали">
           <div class="photo-grid__underline">
             <h2 class="photo-grid__title">Гора Эльбрус</h2>
             <button class="photo-grid__like-button" type="button"></button>
@@ -80,11 +80,11 @@
     <div class="popup__container">
       <form class="popup__form" name="popup__profile-edit">
         <h3 class="popup__title">Редактировать профиль</h3>
-          <input class="popup__field" type="text" name="name" placeholder="Жак-Ив Кусто">
-          <input class="popup__field" type="text" name="occupation" placeholder="Исследователь океана">
-       <button class="popup__save-button" type="button">Сохранить</button>
+        <input class="popup__field" type="text" name="name" placeholder="Жак-Ив Кусто">
+        <input class="popup__field" type="text" name="occupation" placeholder="Исследователь океана">
+        <button class="popup__save-button" type="submit">Сохранить</button>
       </form>
-    <button class="popup__close-icon" type="submit"></button>
+      <button class="popup__close-icon" type="button"></button>
     </div>
   </section>
 </body>
